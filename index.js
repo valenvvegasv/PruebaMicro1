@@ -23,7 +23,8 @@ startButton.addEventListener("click", () => {
 
 function redirection(){
     const isGitHubPages = window.location.hostname.includes("github.io");
-    const repoName = "PruebaMicro1"; //cambio
+    
+    const repoName = "PruebaMicro1"; //cambioo
 
     const baseUrl = isGitHubPages
         ? `https://${window.location.hostname}/${repoName}/`
