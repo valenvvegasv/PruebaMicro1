@@ -128,7 +128,7 @@ function endGame(finalScore) {
 
 function redirectionGame(){
     const isGitHubPages = window.location.hostname.includes("github.io");
-    const repoName = "PruebaMicro1-1"; 
+    const repoName = "PruebaMicro1"; 
 
     const baseUrl = isGitHubPages
         ? `https://${window.location.hostname}/${repoName}/`
@@ -139,7 +139,7 @@ function redirectionGame(){
 
 function redirectionMenu(){
     const isGitHubPages = window.location.hostname.includes("github.io");
-    const repoName = "PruebaMicro1-1"; 
+    const repoName = "PruebaMicro1"; 
 
     const baseUrl = isGitHubPages
         ? `https://${window.location.hostname}/${repoName}/`
