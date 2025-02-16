@@ -2,6 +2,7 @@ const inputNombre = document.getElementById("playerName");
 const startButton = document.getElementById("startButton");
 const errorText = document.getElementById("error");
 const clearScoresButton = document.getElementById("clearScoresButton");
+//pruebaaaaa
 const sounds = {
     red: new Audio('sounds/red.wav'),
     green: new Audio('sounds/green.wav'),
